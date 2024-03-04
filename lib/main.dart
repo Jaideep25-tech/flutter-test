@@ -56,6 +56,8 @@ class MyHomePage extends StatelessWidget {
                 Color? color;
                 if (state.isPositive) {
                   color = Colors.green;
+                } else if (state.isNegative) {
+                  color = Colors.red;
                 }
                 // Display the count with styling.
                 return Text(
