@@ -6,6 +6,7 @@ class Counter {
   /// A boolean property indicating whether the counter value is positive.
   bool get isPositive => count > 0;
 
+  /// A boolean property indicating whether the counter value is negative.
   bool get isNegative => count < 0;
 
   /// Constructor for creating a Counter instance with an initial count.

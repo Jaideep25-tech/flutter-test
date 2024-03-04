@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
             /// BlocBuilder widget displaying the current state of the counter.
             BlocBuilder<CounterHandler, Counter>(
               builder: (context, state) {
-                // Determine text color based on whether the counter is positive.
+                // Determine text color based on whether the counter is positive or negative.
                 Color? color;
                 if (state.isPositive) {
                   color = Colors.green;
