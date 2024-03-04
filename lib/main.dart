@@ -11,7 +11,7 @@ void main() {
 
 /// The main class of the Counter App, which extends [StatelessWidget].
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key});
+  const MyApp({super.key});
 
   /// The build method that creates the root element of the application.
   @override
